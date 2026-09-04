@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio - Radulescu Matei</title>
-    <meta name="description" content="Ambitious college student studying computer science in The Netherlands. Devoted team player, excel at rational thinking and understanding complex subjects, eager to both learn and teach">
+    <meta name="description"
+        content="Ambitious college student studying computer science in The Netherlands. Devoted team player, excel at rational thinking and understanding complex subjects, eager to both learn and teach">
 
 </head>
 
-<body>
-    <header>
-        
+<body class="hero">
+    <div class="header">
+
         <div class="socials">
-            <a href="https://github.com/MateiRms" target="_blank"><img class="socialItem" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> </a>
-            <a href="https://instagram.com/matei.rms" target="_blank"><img class="socialItem" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"> </a>
+            <a href="hz.nl" target="_blank"> <img class="socialItem hzLogo" src="hzLogo.png"></a>
+            <a href="https://github.com/MateiRms" target="_blank"><img class="socialItem"
+                    src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> </a>
+            <a href="https://instagram.com/matei.rms" target="_blank"><img class="socialItem"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
+            </a>
 
         </div>
-        
-       <div class="middleSection">
+
+        <div class="middleSection">
             <h1 id="title"> MATEI IN ICT</h1>
-       </div>
+        </div>
 
-       <div class="contactInfo">
+        <div class="contactInfo">
             <p>radu0004@hz.nl<br>+31 6 83335709</p>
-       </div>
-    </header>
-    <nav class="navbar">
-        
-        <p class="item"><a class="itemBG" href="about.html">A LITTLE <br>ABOUT ME</span></a>
-        <p class="item"><a class="itemBG" href="dashboard.html">TRACK MY STUDIES</a></p>
-        <p class="item"><a class="itemBG" href="why-it.html">WHAT KEEPS <br>ME GOING</a></p>
-        <p class="item"><a class="itemBG"href="blog.html">MY RANTS <br>(BLOG)</a></p>
-        
-    </nav>
-    <video class="videoBG" width="100%" height="150%" autoplay muted loop preload>
-        <source src="OceanBG.mp4" type="video/mp4">
+        </div>
+    </div>
+    <div class="hero">
+        <video class="videoBG" autoplay muted loop preload>
+            <source src="OceanBG.mp4" type="video/mp4">
+        </video>
+    
+        <div class="description">
+            <h1>Hello, my name is Matei and I have been surrounded by computers all my life.</h1>
+            <h1>I enjoy programming and seeing the stuff I build in action, which is why I chose ICT.</h1>
 
-    </video>
+        </div>
+
+        <nav class="navbar">
+            <a class="itemBG item" href="about.html">ABOUT</a>
+            <a class="itemBG item" href="dashboard.html">STUDIES</a>
+            <a class="itemBG item" href="why-it.html">MOTIVATION</a>
+            <a class="itemBG item" href="blog.html">BLOG</a>
+        </nav>
+
+        <footer class="description sideNote">As a side-note, this assigment reminded me that I am more back-end focused!</footer>
+    </div>
+   
 </body>
+
 </html>
