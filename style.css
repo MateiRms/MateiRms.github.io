@@ -2,10 +2,10 @@ body {
 
     padding: 0;
     margin: 0;
-
+    background-color: #fcfbf4;
 }
 
-.hero {
+.nonScrollable {
     overflow: hidden;
 }
 
@@ -22,15 +22,21 @@ html {
     padding-bottom: -30px;
     background-color: #ffffff;
     margin: 0;
+    text-align: center;
 }
 
 .socials {
+    float: left;
+    align-self: flex-start;
+    width: 25%;
     margin-top: 1%;
+
 }
 
 .hzLogo{
     scale:85%;
     margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .socialItem {
@@ -41,7 +47,10 @@ html {
 }
 
 .middleSection {
+    width: 50%;
+    width: auto;
     font-family: "Playfair Display", serif;
+    text-align: center;
     /*font-family: "Yantramanav", sans-serif;*/
     font-size: 55px;
     font-weight: 900;
@@ -55,6 +64,7 @@ html {
 }
 
 .contactInfo {
+    width: 25%;
     margin-top: 1%;
     margin-right: 25px;
     color: #294761;
@@ -111,7 +121,6 @@ html {
     padding-bottom: 5%;
     text-align: center;
     max-block-size: 50px;
-    ;
     display: inline-block;
     background-color: #1b1c1e8f;
     font-family: "Yantramanav", sans-serif;
@@ -139,17 +148,17 @@ table,
 th,
 td {
     font-family: "Yantramanav", sans-serif;
+    margin:0 auto;
 }
 
 table {
     display: flex;
     justify-content: center;
     border-collapse: collapse;
-    margin-top: 5%;
-
 }
 
 th {
+    width: 500px;;
     background-color: #294761;
     color: #ffffff;
     padding: 5px;
@@ -164,6 +173,7 @@ td {
     background-color: aliceblue;
     color: #294761;
     border: 1px solid black;
+    height: 60px;
 }
 
 .number {
@@ -171,6 +181,8 @@ td {
 }
 
 .topBar {
+    top:0;
+    position:sticky;
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -221,6 +233,7 @@ td {
 }
 
 .images{
+    top:150px;
     display: flex;
     justify-content: center;
 }
@@ -232,6 +245,7 @@ td {
 
 .profilePic {
     width: 500px;
+    height: 500px;
     border-radius: 20px;
     border: 3px solid #406585;
 }
@@ -281,9 +295,34 @@ td {
 
 }
 
-.selfDescription {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.content {
+    max-width: fit-content;
+    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
+.selfDescription   {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color:#294761
+}
+
+.gallery{
+    margin:0 auto;
+    display: flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+
+
+}
+.galItem{
+    width: 480px;
+    padding: 10px;
+    height: 500px;
+    object-fit:cover;
+    border-radius: 20px;
+}
