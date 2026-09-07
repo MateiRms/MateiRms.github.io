@@ -16,7 +16,7 @@ html {
 
 .header {
     width: 100%;
-    height: 160px;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     padding-bottom: -30px;
@@ -27,8 +27,9 @@ html {
 
 .socials {
     float: left;
+    flex-direction: row;
     align-self: flex-start;
-    width: 25%;
+    width: 25vh;
     margin-top: 1%;
 
 }
@@ -42,12 +43,14 @@ html {
 .socialItem {
     margin-left: 15px;
     padding-top: 0px;
+    margin-top:4vh;
     display: inline-block;
-    width: 100px;
+    width: 6vh;
+    scale:110%;
 }
 
 .middleSection {
-    width: 50%;
+    width: 50vh;
     width: auto;
     font-family: "Playfair Display", serif;
     text-align: center;
@@ -64,11 +67,12 @@ html {
 }
 
 .contactInfo {
-    width: 25%;
+    width: 25vh;
     margin-top: 1%;
     margin-right: 25px;
     color: #294761;
     font-size: 25px;
+    direction: rtl;
 
 }
 
@@ -116,16 +120,17 @@ html {
 
 .item {
     position: static;
+    margin-top: 5vh;
     width: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     text-align: center;
     max-block-size: 50px;
     display: inline-block;
     background-color: #1b1c1e8f;
     font-family: "Yantramanav", sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 50px;
     text-justify: auto;
     border-radius: 10px;
     transition: scale 0.3s ease;
@@ -152,6 +157,8 @@ td {
 }
 
 table {
+    height: 100vh;
+    position: absolute;
     display: flex;
     justify-content: center;
     border-collapse: collapse;
@@ -173,7 +180,7 @@ td {
     background-color: aliceblue;
     color: #294761;
     border: 1px solid black;
-    height: 60px;
+    height: 39px;
 }
 
 .number {
@@ -181,6 +188,7 @@ td {
 }
 
 .topBar {
+    z-index:2;
     top:0;
     position:sticky;
     display: flex;
@@ -305,7 +313,7 @@ td {
 
 .selfDescription   {
     font-family: "Playfair Display", serif;
-    font-size: 50px;
+    font-size: 40px;
     color:#294761
 }
 
@@ -319,10 +327,70 @@ td {
 
 
 }
+
 .galItem{
     width: 480px;
     padding: 10px;
     height: 500px;
     object-fit:cover;
     border-radius: 20px;
+}
+
+.blogHeader{
+    height: 100vh;
+}
+
+.choice{
+    display: flex;
+    height: 100%;
+    margin:0 auto;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.option{
+    direction: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.goals{
+    background-image: url(https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFjYXRpb258ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    color:aliceblue;
+    
+    width: 50%;
+    background-color: #294761;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.direction{
+    background-image: url(images/direction.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #294761;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+    color:aliceblue;
+}
+
+.option:hover{
+    scale:105%
+}
+
+.blogRedirect{
+    background-color: #0000009a;
+    padding: 1vh;
+    border-radius: 10px;
+    font-size:20px
 }
