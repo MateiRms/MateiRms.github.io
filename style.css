@@ -89,9 +89,10 @@ html {
 
 .description {
     position: absolute;
-    top: 20px;
+    top: 13vh;
     left: 0;
     width: 100%;
+    font-size:25px;
     text-align: center;
     color: white;
     background: transparent;
@@ -316,6 +317,10 @@ td {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     color:#294761;
+}
+
+.content>p{
+    text-align: justify;
 }
 
 .gallery{
