@@ -413,3 +413,28 @@ td {
 .centered{
     text-align: center;
 }
+
+.motiavtionImage{
+    width:25vh;
+    height:25vh;
+}
+
+.motivationTable, .motivationTr, .motivationTd{
+    border-style:hidden;
+}
+
+.motivationTable{
+    position: fixed;
+    margin-top:0vh;
+    margin-left:0vh;
+    margin-right:-1vh;
+}
+
+.justified{
+    text-align:justify;
+}
+
+.motivationTr{
+    margin-top:-2vh;
+    margin-bottom:-2vh
+}
