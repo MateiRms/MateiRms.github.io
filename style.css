@@ -1,3 +1,11 @@
+/*
+COLORS:
+Cream Background: fcfbf4
+Top bar Navy: 022145
+Text Navy: 294761
+
+*/
+
 body {
 
     padding: 0;
@@ -20,7 +28,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding-bottom: -30px;
-    background-color: #ffffff;
+    background-color: #fcfbf4;
     margin: 0;
     text-align: center;
 }
@@ -432,4 +440,74 @@ td {
 
 .justified{
     text-align:justify;
+}
+
+.swot {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top:2vh;
+    width: 100vh;
+    height: 80vh;
+    background-color: #294761;
+    border-radius: 60px;
+    padding: 3px;
+    
+}
+
+.swot h1 {
+    text-align: center;
+    color: #f7f4de;
+    text-decoration: underline;
+}
+
+.strenghts{
+    height: 49%;
+    width: 49%;
+    margin: 0 auto;
+    border-style:solid;
+    border-color: #294761;
+    border-top-left-radius: 60px;
+    background-color: #406585;
+
+}
+.weakness{
+    height: 49%;
+    width: 49%;
+    margin: 0 auto;
+    border-style:solid;
+    border-color: #294761;
+    border-top-right-radius: 60px;
+    background-color: #406585;
+    
+}
+
+.opportunities{
+    height: 49%;
+    width: 49%;
+    margin: 0 auto;
+    border-style:solid;
+    border-color: #294761;
+    border-bottom-left-radius: 60px;
+    background-color: #406585;
+
+}
+
+.threats{
+    height: 49%;
+    width: 49%;
+    margin: 0 auto;
+    border-style:solid;
+    border-color: #294761;
+    border-bottom-right-radius: 60px;
+    background-color: #406585;
+
+}
+
+.list{
+    font-size: 22px;
+    margin-left:5px;
+    margin-right: 5px;
+    color: #f7f4de;
 }
