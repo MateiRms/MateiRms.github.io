@@ -409,6 +409,10 @@ td {
     font-size:20px
 }
 
+.motivation {
+    background-color:#f0f8ff ;
+}
+
 .videoMotivation{
     height: 85vh;
     width: 100vw;
@@ -423,23 +427,41 @@ td {
 }
 
 .motiavtionImage{
-    width:25vh;
-    height:25vh;
+    width:20vh;
+    height:20vh;
 }
 
 .motivationTable, .motivationTr, .motivationTd{
     border-style:hidden;
+    background-color: transparent;
 }
 
 .motivationTable{
-    position: fixed;
-    margin-top:0vh;
-    margin-left:0vh;
-    margin-right:-1vh;
+    margin:0 auto; position: relative;
+    margin-top: -10vh;
+    margin-bottom:-10vh;
+}
+
+.short{
+    width: 5%;
+    padding-left: 2vh;
+}
+
+.motivationText {
+    margin:0 auto;
+    margin-top:0;
+}
+
+.title{
+    font-size:50px;
+    text-decoration: underline;
 }
 
 .justified{
     text-align:justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:25px;
 }
 
 .swot {
@@ -456,9 +478,13 @@ td {
     
 }
 
-.swot h1 {
+.swot {
     text-align: center;
     color: #f7f4de;
+    margin-bottom: -10vh;
+}
+
+.swotTitle {
     text-decoration: underline;
 }
 
@@ -510,4 +536,28 @@ td {
     margin-left:5px;
     margin-right: 5px;
     color: #f7f4de;
+}
+
+.goalTable{
+    position:relative;
+    width:165vh;
+}
+.goalTd{
+    width: 50%;
+    background-color: #fcfbf4;
+}
+
+.goalTable,.goalTr {
+    border-style: hidden;
+    
+}
+
+.mission{
+    padding-left:20vh;
+    padding-right:20vh;
+    font-size:30px;
+}
+
+.missionDiv{
+    margin-bottom:20vh;
 }
