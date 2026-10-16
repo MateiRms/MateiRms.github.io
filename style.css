@@ -452,6 +452,11 @@ td {
     margin-top:0;
 }
 
+.iufLink{
+    color: #4084bb;
+    text-decoration: underline;
+}
+
 .title{
     font-size:50px;
     text-decoration: underline;
@@ -560,4 +565,9 @@ td {
 
 .missionDiv{
     margin-bottom:20vh;
+}
+
+.directionText{
+    padding: 5vh;
+    font-size:40px;
 }
