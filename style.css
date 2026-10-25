@@ -369,7 +369,7 @@ td {
 }
 
 .goals{
-    background-image: url(https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmFjYXRpb258ZW58MHx8MHx8fDA%3D);
+    background-image:url(images/newGoals.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -385,7 +385,7 @@ td {
 }
 
 .direction{
-    background-image: url(images/direction.webp);
+    background-image: url(images/newDirection.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -493,6 +493,10 @@ td {
     text-decoration: underline;
 }
 
+.swotList {
+    font-size:26px;
+}
+
 .strenghts{
     height: 49%;
     width: 49%;
@@ -544,6 +548,7 @@ td {
 }
 
 .goalTable{
+    margin-top:-150px;
     position:relative;
     width:165vh;
 }
@@ -560,7 +565,7 @@ td {
 .mission{
     padding-left:20vh;
     padding-right:20vh;
-    font-size:30px;
+    font-size:40px;
 }
 
 .missionDiv{
@@ -570,4 +575,8 @@ td {
 .directionText{
     padding: 5vh;
     font-size:40px;
+}
+
+.goalP {
+    font-size: 40px;
 }
